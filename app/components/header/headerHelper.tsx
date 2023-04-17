@@ -77,13 +77,14 @@ const HeaderHelper = ({}) => {
           <li>
             <Link href={'/'}>Summer</Link>
           </li>
+
           <li
             id='submenu'
             onClick={(event) => showSubmenu(event)}
             className='menu-item '
           >
             Dropdown 2
-            <ul className='sub-menu'>
+            <ul id='yay' className='sub-menu'>
               <li>
                 <Link href={'/'}>River 2</Link>
               </li>
