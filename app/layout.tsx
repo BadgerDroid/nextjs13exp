@@ -1,5 +1,5 @@
 import '../styles/globals.scss';
-import head from './components/header/head';
+import CustomHeader from './components/header/head';
 
 export const metadata = {
   title: 'Next.js 13 experimental',
@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang='en'>
       <body>
         <div className='container'>
-          <head />
+          <CustomHeader />
           <main>{children}</main>
         </div>
       </body>

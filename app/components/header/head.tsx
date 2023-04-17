@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import '../../styles/globals.scss';
+//import '../../styles/globals.scss';
 import HeaderHelper from './headerHelper';
 
-const head = ({}) => {
+const customHeader = ({}) => {
   return (
     <div className='wrapper'>
       <HeaderHelper />
@@ -11,4 +11,4 @@ const head = ({}) => {
   );
 };
 
-export default head;
+export default customHeader;
